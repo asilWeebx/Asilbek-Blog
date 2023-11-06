@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Bosh Sahifa{% endblock title %}
+
+{% block content %}
+    <br/>
+    <div class="jumbotron">
+        <h1 class="display-4">Assalomu Aleykum!</h1>
+        <p class="lead">Asilbek Yuldashevning shaxsiy blogiga xush kelibsiz.</p>
+        <hr class="my-4">
+        <p>Bu yerda siz dasturlash va dasturchilarga oid so'ngi yangiliklardan xabardor bo'lib turasiz</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{% url 'article_list' %}" role="button">Postlarni Ko'rish</a>
+        </p>
+    </div>
+{% endblock content %}
